@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>АВТО</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<link href="jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="scripts/jquery.mousewheel.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="scripts/pop-ups.js"></script>
+<script type="text/javascript" src="scripts/nav.js"></script>
+</head>
+<body>
+<hgroup>
+  <h1>Мои любимые машины</h1>
+</hgroup>
+<nav>
+  <ul id="menu" class="menu">
+    <li> <a href="#" id="about"> <span class="active"></span> <span class="wrap"> <span class="link">Mercedes</span> <span class="descr">G-Class</span> </span> </a> </li>
+    <li> <a href="#" id="projects"> <span class="active"></span> <span class="wrap"> <span class="link">Параметры</span> <span class="descr">G-Class</span> </span> </a> </li>
+    <li > <a href="#" id="blog"><span class="active"></span> <span class="wrap"> <span class="link">История</span> <span class="descr">G-Class</span> </span> </a> </li>
+  </ul>
+</nav>
+<section id="bg">
+  <section id="overlay"></section>
+  <a href="#" class="nextImageBtn" title="next"></a><a href="#" class="prevImageBtn" title="previous"></a><img src="images/gallery/Gelik.jpg" alt="Title of this pic" title="Mercedes G-Class" id="bgimg" /></section>
+<div id="preloader"><img src="images/ajax-loader_dark.gif" width="32" height="32" alt="" /></div>
+<div id="img_title"></div>
+<div id="toolbar"><a href="#" title="Maximize" onClick="ImageViewMode('full');return false"><img src="images/toolbar_fs_icon.png" width="50" height="50" alt="" /></a></div>
+<div id="thumbnails_wrapper">
+  <div id="outer_container">
+    <div class="thumbScroller">
+      <div class="container">
+        <div class="content">
+          <div><a href="images/gallery/Gelik.jpg"><img src="images/gallery/Geliks.jpg"  title="Mercedes G-Class" alt="Title of this pic" class="thumb" /></a>
+          </div>
+          <div><a href="images/gallery/1.jpg"><img src="images/gallery/1s.jpg"  title="BMW" alt="Title of this pic" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/2.jpg"><img src="images/gallery/2s.jpg" title="Porsche 991" alt="Second Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/3.jpg"><img src="images/gallery/3s.jpg" title="TOYOTA Supra" alt="Third Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/4.jpg"><img src="images/gallery/4s.jpg" title="Mercedes" alt="Fourth Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/7.jpg"><img src="images/gallery/7s.jpg" title="TOYOTA Mark 2" alt="Fifth Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/6.jpg"><img src="images/gallery/6s.jpg" title="Nissan GTR" alt="Sixth Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/1.jpg"><img src="images/gallery/1s.jpg" title="BMW" alt="Title of this pic" class="thumb" /></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<article id="popupAbout" class="popupAbout">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupAboutClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <p><img src="images/connoisseur.png" alt="" class="image"/>Mercedes G-Class, также известный как G-Wagen или Geländewagen, является одним из наиболее узнаваемых автомобилей в мире благодаря своему уникальному дизайну, надежности и производительности. Эта машина была создана более четырех десятилетий назад в качестве военного транспорта и быстро стала одной из самых популярных моделей в линейке Mercedes-Benz.
+          <br>Mercedes G-Class является одним из самых идентифицируемых автомобилей на дороге благодаря своей уникальной форме и стилю.
+
+          <br>Эта машина была создана в 1979 году в качестве военного транспорта, и с тех пор она прошла множество модификаций и улучшений.
+          
+         <br> В течение своей истории G-Class получил множество наград, включая награду "4x4 of the Year" и занятие первых мест на ралли "Paris-Dakar".
+          
+         <br> Внедорожные возможности Mercedes G-Class являются одними из лучших в классе, что делает эту машину идеальной для любителей активного отдыха.
+          
+         <br> G-Class имеет высокий клиренс и угол атаки, что позволяет ей легко преодолевать препятствия на дороге.
+          
+         <br> Эта машина оснащена мощным двигателем, который обеспечивает высокую скорость и производительность.
+          
+         <br> Внутреннее пространство Mercedes G-Class очень комфортабельное и просторное, что делает ее идеальным выбором для длительных поездок.
+          
+         <br> Кроме того, G-Class имеет множество современных функций, таких как системы безопасности и развлечений, что делает ее одной из самых продвинутых машин на дороге.
+          
+         <br> Эта машина имеет широкий диапазон возможностей настройки, что позволяет владельцам выбирать различные опции, которые наилучшим образом соответствуют их потребностям.
+          
+          Модели G-Class, оснащенные дизельными двигателями, известны своей экономичностью, что делает их привлекательным выбором для тех, кто хочет сократить расходы на топливо.
+
+        </p>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+<article id="popupProjects" class="popupProjects">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupProjectsClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h2>Mercedes G-Class</h2>
+        <p class="nomargin"><img src="images/elegant-press.png" alt="" class="image"/>Презентация очередной генерации легендарного Гелендвагена состоялась 14 января на международном автосалоне в Детройте. Глядя на фотографии новой версии внедорожника, можно подумать, что кузов Гелендвагена со сменой поколений изменился незначительно, но это заблуждение: на самом деле у G-Class W463 совершенно новый кузов, который лишь стилистически повторяет своих предшественников. Если присмотреться, можно заметить, что у «Гелика» 2018 года более округлые углы дверей и оконные проемы, изменилась форма передка и т. д. Новые фары выполнены на светодиодах и имеют эллиптическую, а не классическую круглую форму. Ширина кузова увеличена на 10 см — это сделано ради увеличения полезного объема салона. По неофициальным данным, в конструкции нового кузова широко применен алюминий, при этом его жесткость на кручение стала выше на 50% по сравнению с машиной уходящего поколения.
+
+          <br> В основе нового G-Class по-прежнему лежит лонжеронная рама лестничного типа, но конструкция подвесок изменилась. Передняя теперь независимая, выполнена на двойных поперечных рычагах, задняя осталась зависимой, на четырех продольных рычагах, но колея расширилась. Подвески разрабатывались при активном участии инженеров подразделения AMG, что обещает отличную управляемость. Внедорожные качества при этом тоже должны улучшиться — дорожный просвет у нового G-Class на 6 мм выше, чем у предшественника, и достигает 241 мм. Максимальная глубина преодолеваемого брода возросла на 100 мм и составляет 700 мм.
+          
+          <br>Блокировки трех дифференциалов и понижающая передача в новом G-Class также останутся. В комплектацию внедорожника также войдет система G-Mode нового поколения, которая автоматически включается после использования одной из блокировок или «понижайки». G-Mode меняет настройки амортизаторов и рулевого управления для повышения внедорожных возможностей.
+          
+          <br>Салон нового G-Class выполнен в стиле последних моделей Mercedes. В нем применено два 12,3-дюймовых дисплея под единым стеклом и общим козырьком — один исполняет роль комбинации приборов, а второй — сенсорный — отвечает за функции мультимедийной системы. Аудиосистема автомобиля включает 16 динамиков суммарной мощностью 580 Вт. В комплектацию помимо прочего войдут HD-видеокамеры кругового обзора.
+          
+         <br> По двигателям пока официальной информации нет. По предварительным данным, основными для нового G-Class станут бензиновый V8 объемом 4,0 л и дизель V6 объемом 2,9 л. Также появится модификация с 3,0-литровым бензиновым турбомотором. Все двигатели будут агрегатироваться только с 9-ступенчатой автоматической трансмиссией, передающей крутящий момент в пропорции 40/60 в пользу задней оси.<br />
+        </p>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+<article id="popupBlog" class="popupBlog">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupBlogClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h2>История Mercedes G-Class</h2>
+        <div class="date"><span class="day">9</span> <span class="month">Мая</span> <span class="year">1972</span> </div>
+        <p>История G-класса началась в 1972 году. Изначально была разработана военная версия, а в 1979 году был выпущен первый гражданский экземпляр. Машины первой серии 460 оснащались рядными четырёх-, пяти- и шестицилиндровыми бензиновыми и дизельными моторами мощностью до 156 л. с.
+
+          В 1990 году появилась машина нынешней серии 463 с неразрезными мостами спереди и сзади, постоянным полным приводом, электроактуаторами блокировок и АБС. Гамму моторов составили четырёхцилиндровый двигатель (116–126 л. с.), а также мощные агрегаты R6 (170–210 л. с.), V6 (215 л. с.) и V8 (241 л. с.). Обновление в 2000 году принесло внедорожнику не только новый интерьер, но и еще один мотор — V8 5.0 мощностью 296 сил.
+          
+          Параллельно с этим развивалась и версия AMG, которую начали выпускать с 1994 года. Первая модель G 36 AMG оснащалась рядной «шестёркой» 3.6 (272 л. с.), а через четыре года компания выпустила вариант 55 AMG с 354-сильным компрессорным мотором V8 5.4. После обновления в 2005 году мощность мотора увеличилась до 476 л. с.
+          
+          Очередной рестайлинг внедорожника произошел в 2006 году. В рамках модернизации был расширен список оснащения, добавлены новые варианты отделки салона, а вместо версий G 270 CDI и G 400 CDI появился вариант G 320 CDI (224 л. с.). Мощность версии G 55 AMG выросла до 507 л. с., а ее продажи продолжались до 2012 года.
+          
+          В 2008 году был представлен усовершенствованный внедорожник. Он получил решетку радиатора с тремя крупными планками, версию G 500 оснастили мотором V8 5.5 (388 л. с.). Еще через год версию G 320 CDI сменила модификация G 350 CDI, хотя турбодизель мощностью 224 л. с. остался прежним. В 2010 году немцы начали предлагать вариант G 350 BlueTec с 211-сильным мотором, а в 2011 году было объявлено о прекращении выпуска трехдверной версии.
+          
+          Одно из самых масштабных обновлений отмечено в 2012 году. Во внешности модели появились светодиодные ходовые огни, новые корпусы зеркал и иная задняя оптика. Салон изменился полностью, теперь верхушку передней панели украшал планшет. Вместо версии G 55 AMG появились варианты G 63 AMG с битурбомотором V8 5.5 (544 л. с.) и G 65 AMG с шестилитровым двухнаддувным V12 (612 л. с.).
+          
+          В 2013 году немцы выпустили трёхосный G 63 AMG 6x6. Машину построили на шасси армейского вездехода Mercedes G 320 CDI. Длина кузова составляла 5875 мм, а клиренс увеличился с 210 мм до 460 мм. Автомобиль оснащался двигателем V8 5.5 и семиступенчатым «автоматом».
+          
+          Последний рестайлинг перед сменой поколений внедорожник пережил в 2015 году. Машина получила новые бамперы и легкосплавные диски, а также расширенные колёсные арки AMG. Место мотора 5.5 занял турбодвигатель V8 4.0 с двумя турбокомпрессорами (422 л. с.). Мощность турбодизеля для версии G 350 увеличили с 211 до 245 л. с. «Заряженные» модификации теперь продавались под брендом Mercedes-AMG.</p>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+<script type="text/javascript" src="scripts/gallery.js"></script> 
+<script type="text/javascript" src="scripts/jquery.mCustomScrollbar.js"></script>
+</body>
+</html>
